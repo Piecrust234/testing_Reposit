@@ -1,0 +1,24 @@
+#:kivy 1.0.9
+
+<ArdApplication>:
+
+
+
+    Button:
+
+        center_x: root.width/2
+        center_y: root.height/2
+        text: "Turn on light"
+        on_press: root.turn_on()
+
+    Button:
+        id: test
+        center_x: (root.width/2)
+        center_y: root.height * 5/6
+        text: "Turn off light"
+        on_press: root.turn_off()
+
+
+
+
+
